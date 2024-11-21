@@ -7,16 +7,21 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f7f7f7;
+    background-color: #003e06;
     min-height: 100vh;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 9999;
+
+}
 
 /* == NAVBAR == */
 .navbar {
-    position: sticky;
-    color: #090909;
-    background-color: #909090;
+    background-color: #d1d400;
     font-size: 1.1rem;
     font-weight: 600;
 
@@ -33,9 +38,12 @@ body {
             
             a {
                 text-decoration: none;
-                border: 1px solid black;
                 padding: 10px;
-                color: #090909;
+                color: white;
+            }
+
+            a:hover {
+                color: rgb(150, 96, 96);
             }
         }
 
@@ -43,11 +51,9 @@ body {
         .search-bar {
             margin-left: auto;
             margin-right: 20px;
-            border: 3px solid green;
     
             input {
                 border-radius: 20px;
-                border: 1px solid red;
                 padding: 10px;
                 font-size: 1rem;
                 background-color: #e5e5e5;
@@ -64,5 +70,66 @@ body {
 h1 {
     text-align: center;
     font-family: 'Himalaya';
-    font-size: 3rem;
+    font-size: 4rem;
+    color: #fff;
+}
+
+
+/* === Page Accueil ==  */
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.container-intro {
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.container-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    img {
+        max-width: 250px;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 20px;
+    }
+}
+
+.container-services {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+    /* font-size: 1rem; */
+}
+
+.services {
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    /* flex-direction: column; */
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.checkmark {
+    width: 20px;
+}
+
+.service-title {
+    display: flex;
+    /* flex-direction:row; */
+
+    p {
+        text-align: center;
+    }
 }
