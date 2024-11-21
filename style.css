@@ -133,3 +133,84 @@ main {
         text-align: center;
     }
 }
+
+/* MASONRY GRID SECTION */
+.masonry-grid img {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 20px;
+}
+
+
+.masonry-grid {
+    columns: 300px;
+}
+
+.realisation-title
+
+/* CONTACT SECTION */
+
+.contact {
+    width: 50%;
+    margin: 2em auto;
+}
+
+h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+label {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+#country {
+    cursor: pointer;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #0b9719;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+    &:hover {
+        background-color: #0081d2;
+    }
+}
+
+label {
+    color: #fff;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: #002704;
+    color: #fff;
+   
+
+    p {
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 25px;
+        margin: 0;
+    }
+}
