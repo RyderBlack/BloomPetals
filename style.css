@@ -125,16 +125,16 @@ main {
     width: 20px;
 }
 
-.service-title {
-    display: flex;
-    /* flex-direction:row; */
+.services-title {
+    text-align: center;
 
     p {
-        text-align: center;
+        /* margin: 0 auto; */
     }
 }
 
-/* MASONRY GRID SECTION */
+
+/* == MASONRY GRID SECTION == */
 .masonry-grid img {
     width: 100%;
     margin-bottom: 1em;
