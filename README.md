@@ -1,3 +1,3 @@
 # BloomPetals
 
-Hee is my Bloom Petals website
+Here is my Bloom Petals website
