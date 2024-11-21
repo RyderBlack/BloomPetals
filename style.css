@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Himalaya';
+    src: url('./assets/fonts/Himalaya.ttf');
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,6 +11,8 @@ body {
     min-height: 100vh;
 }
 
+
+/* == NAVBAR == */
 .navbar {
     position: sticky;
     color: #090909;
@@ -48,11 +55,14 @@ body {
             
         }
 
-    }
+    }    
+    
+}
 
-    
-    
 
-    
-    
+/* == LOGO ==  */
+h1 {
+    text-align: center;
+    font-family: 'Himalaya';
+    font-size: 3rem;
 }
